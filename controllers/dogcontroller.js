@@ -15,7 +15,7 @@ router.get('/test', function(req, res){
     res.send('Test generate');
 })
 
-router.post('/user/', function(req, res) {
+router.post('/user', function(req, res) {
 
     let username = req.body.user.username;
     let pass = req.body.user.password;
